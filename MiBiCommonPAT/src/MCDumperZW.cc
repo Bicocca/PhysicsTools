@@ -103,7 +103,7 @@ void MCDumperZW::Analyze(edm::Handle<reco::GenParticleCollection>& genParticles)
     
     // W or Z
     //if (fabs(pdgId == 24)) std::cout << "pdgId = ±24. status = " << status << std::endl; //fede
-    if( ((pdgId == 23) && (status == 3)) ||  ( (abs(pdgId) == 24) && (status == 3)) )
+    if( ((pdgId == 23) && (status == 62)) ||  ( (abs(pdgId) == 24) && (status == 62)) )
     {
       mcV_p = pCurrent;
     }
