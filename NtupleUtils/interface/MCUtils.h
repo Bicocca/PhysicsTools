@@ -3,7 +3,6 @@
 
 #include "DataFormats/Candidate/interface/Candidate.h"
 #include "DataFormats/Candidate/interface/Particle.h"
-#include "FWCore/Framework/interface/ESHandle.h"
 
 #include <vector>
 #include <string>
